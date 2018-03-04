@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kevindanielguzmen98/platzom/issues"
   },
-  "homepage": "https://github.com/kevindanielguzmen98/platzom#readme"
+  "homepage": "https://github.com/kevindanielguzmen98/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
