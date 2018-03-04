@@ -16,7 +16,7 @@ function platzom(str) {
     }
     /* Si la palabra traducida tiene 10 o más letras se debe partir en dos por la mitad */
     var length = translation.length;
-    if (length >= 0) {
+    if (length >= 10) {
         var firstHalf = translation.slice(0, Math.round(length / 2));
         var secondHalf = translation.slice(Math.round(length / 2));
         translation = firstHalf + '-' + secondHalf;
@@ -25,6 +25,8 @@ function platzom(str) {
     if (str == reverse(str)) {
         return minMay(str);
     }
+
+    return translation;
 }
 
 function minMay(str) {
