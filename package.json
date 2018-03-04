@@ -1,6 +1,6 @@
 {
   "name": "platzom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Traductor a lenguaje platzom",
   "main": "dist/platzom.js",
   "scripts": {
